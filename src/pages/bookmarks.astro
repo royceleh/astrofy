@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Bookmarks" sideBarActiveItemID="bookmarks">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Bookmarks</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    List of what I'm currently reading or have read and bookmarked.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Reading</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Range (https://www.goodreads.com/book/show/41795733-range)</a>
+      <div class="mb-10 text-justify">
+        David Epstein writes about why he thinks generalists are more relevant than specialists.
+      </div>
+    </li>
+  </ul>
+  
+</BaseLayout>
